@@ -36,7 +36,18 @@ project repo.
 **Commandline**
 
     $ git clone https://github.com/dgonzo/utahtechcommunity.git
+    $ cd utahtechcommunity
+    $ docker-compose up
 
-**Github Desktop**
+**Desktop**
 
-Follow directions in Github Desktop help docs [here](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/).
+  * Follow directions in Github Desktop help docs for cloning a repo [here](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/).
+  * Start the project using your favorite command prompt (e.g.
+  Terminal.app or PowerShell/`cmd`) and do:
+    * cd <path to cloned directory>
+    * docker-compose up
+
+If your web browser does not automatically open then navigate to
+[http://localhost:8000](http://localhost:8000)
+
+
