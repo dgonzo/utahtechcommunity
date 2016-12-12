@@ -4,5 +4,6 @@ services:
     build: .
     ports:
       - 8888:8888
+      - 8000:8000
     volumes:
       - ./notebooks:/home/jovyan/work
